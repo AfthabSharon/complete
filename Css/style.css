@@ -2,7 +2,7 @@
     display: grid;
     height: 50px;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(36, 34, 34);
+    background-color: rgb(0, 0, 0);
 }
 
 /* left side image 1 */
@@ -78,8 +78,7 @@
 
 /* 3rdpart */
 .container1 {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    display: flex;
     height: 80px;
     position: sticky;
     top: 0;
@@ -93,26 +92,32 @@
 
 .flex3 img {
     /* allen image */
-    width: 222px;
+    width: 80%;
     height: 53px;
     margin-left: 45px;
     margin-top: 23px;
 }
 
 /* left side2 */
+
 .flex4 {
     display: flex;
-    gap: 5px;
+    justify-content: space-between;
+    gap:60px ;
     margin-top: 45px;
+    margin-left: 60px;
+    
 }
+
 
 /* links section */
-.n a {
+.flex4 a {
+    margin-left: 0px;
+    color: black;
     text-decoration: none;
-    margin-left: 25px;
-    color: rgb(5, 5, 5);
 
 }
+
 
 /* ?placeholdersection */
 .searchm {
@@ -121,6 +126,7 @@
 
 .search {
     margin-top: 43px;
+    margin-left: 60px;
     border-bottom: 1px solid black;
 
 }
@@ -173,29 +179,35 @@ input {
     letter-spacing: 3px;
 }
 
-/* round image section */
-.lasts {
+.lasts  {
     display: flex;
-    padding-left: 150px;
+    padding-left: 80px;
     flex-wrap: wrap;
-    gap: 34px;
+    gap:68px;
     margin-top: 35px;
+
 }
 
 .i,
 .j,
 .k,
 .l,
-.m {
+.m,
+.f,
+ .n{
     text-align: center;
     color: #0e3051;
+    width: 150px;
+}
+.last{
+    display: flex;
 }
 
 /* qr section */
 .yellow {
     background-color: rgb(249, 231, 159);
     display: flex;
-    height: 225px;
+    height: auto;
     width: 100%;
 }
 
@@ -234,7 +246,7 @@ input {
     padding-left: 84px;
     display: flex;
     margin-bottom: 16px;
-    gap: 7px;
+    gap: 7px;   
 }
 
 .code p {
@@ -255,7 +267,8 @@ input {
 }
 
 .yellowsec2 img {
-    height: 176px;
+    width: 50%;
+    
 }
 
 .yellowsec2 p {
@@ -263,15 +276,15 @@ input {
 }
 
 .yellowsec2 {
-    padding-left: 17px;
-    margin-left: 49px;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
 }
-
+.yellowsec3{
+    text-align: center;
+}
 .yellowsec3 img {
-    height: 200px;
-    width: 338px;
-    padding-left: 265px;
-    margin-top: 26px;
+    width: 50%;
 }
 
 .playstore img {
@@ -691,11 +704,14 @@ margin-left:-60px;
     width: 100%;
     margin-top: 50px;
     display: flex;
-    gap: 3px;
+    gap: 0px;
 }
 
 .photos-mw img {
     width: 100%;
+}
+.full-only-verth{
+    width: 98%;
 }
 
 .photos-gb img {
@@ -823,7 +839,7 @@ margin-left:-60px;
     background-color: #efe11c;
     width: 497px;
     height: 310px;
-    margin-left: 850px;
+    margin-left: 40px;
     border-radius: 10px;
 }
 
@@ -1186,3 +1202,6 @@ font-size: 13px;
     background-image: linear-gradient(90deg,#009c8f 0,#2b7bfc 17%,#0e3051 33%,#fa0783 51%,#c90c0c 66%,#f80 82%,#ffdf00)!important;
     height: 5px;
 }
+/* .main-full{
+    border: 1px solid red;
+} */
