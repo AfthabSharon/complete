@@ -2,7 +2,7 @@
     display: grid;
     height: 50px;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(49, 49, 49);
 }
 
 /* left side image 1 */
@@ -123,12 +123,20 @@
 .searchm {
     display: flex;
 }
-
-.search {
-    margin-top: 43px;
-    margin-left: 60px;
+.search{
     border-bottom: 1px solid black;
-
+    width: 80%;
+    margin-left: 20px;
+}
+.search input{
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 5px;
+}
+.search i{
+    color:#163b5f;
+    font-size: 20px;
+    margin-top: 23px;
 }
 
 input {
@@ -141,7 +149,7 @@ input {
 
 /* backgrround section */
 .back {
-    background-image:url(../Images/intro.jpg);
+    background-image:url(../Images/AS_D_HB_93_V2_Festivesale.jpg);
     height: 500px;
     background-size: 100%;
     margin-top: 28px;
@@ -193,11 +201,22 @@ input {
 .k,
 .l,
 .m,
-.f,
- .n{
+ .f{
     text-align: center;
     color: #0e3051;
-    width: 150px;
+    width: 200px;
+    font-weight:900;
+    font-size: 25px;
+    
+
+}
+.f img{
+    border-radius: 100px;
+    width: 200px;
+    height: 65%;
+}
+.f p{
+    text-align: center;
 }
 .last{
     display: flex;
@@ -298,7 +317,7 @@ input {
     width: 105px;
 }
 
-.fresh {
+.fresh h1{
     text-align: center;
     letter-spacing: 6px;
     color: #0e3051;
@@ -311,13 +330,17 @@ input {
 .bottomM {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
+    width: 100%;
     flex-wrap: wrap;
 }
 
 .bottomM p {
     margin-left: 70px;
     font-size: 18px;
+}
+.bottomM img {
+    margin-top: 10px;
 }
 
 .Allen img {
@@ -600,8 +623,8 @@ margin-left:-60px;
     color: grey;
 }
 
-#green {
-    color: green;
+#purple {
+    color: blueviolet;
 }
 
 .top-selling-right span {
@@ -655,6 +678,12 @@ margin-left:-60px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Inter, Open Sans, Bebas Neue, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, serif, Arial, sans-serif;
     letter-spacing: 2px;
     font-size: 27px;
+}
+
+.logo img{
+    width:90%;
+    margin-left: 4%;
+
 }
 
 .shp-look-imgs {
@@ -741,6 +770,59 @@ margin-left:-60px;
     color: white;
     margin-top: 35%;
     margin-left: 11%;
+}
+
+.color-image img{
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 14%;
+    
+}
+.main-pink{
+    display: flex;
+    position: relative;
+}
+.pink-color{
+    background-color:   #ecafe5;
+    width: 50%;
+    height: 300px;
+    margin-top: 10%;
+    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    /* border-bottom-radius: 8px; */
+    /* position: absolute; */
+
+}
+.pink-color button{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 17px;
+    width: 25%;
+    margin-right: auto;
+}
+.but2{
+    margin-top: 3%;
+}
+.pink-buttons{
+    margin-top: 15%;
+    text-align: center;
+}
+.Gray-color h3{
+    /* background-color: red; */
+    width: 100%;
+    margin-left: 300%;
+    text-align: end;
+    margin-top: 40%;
+    font-size: 15px;
+}
+
+.shades h3{
+    text-align: center;
+    color: white;
+    size: 40px;
 }
 
 .girls-head {
@@ -1057,7 +1139,7 @@ margin-left:-60px;
 .shipping-icons span {
     color: rgb(14, 48, 81);
     margin-bottom: 0 !important;
-    font-size: 40px;
+    font-size: 18px;
 }
 
 .shipping-icons p {
@@ -1205,3 +1287,26 @@ font-size: 13px;
 /* .main-full{
     border: 1px solid red;
 } */
+.delivery{
+    color: black;
+}
+.last{
+    text-decoration: none;
+    /* color: black;
+    background-color: red; */
+    /* padding: 20px; */
+    border-radius: 10px;
+
+}
+.deliveryy i{
+    text-decoration: none;
+    background-color: #ffee00;
+    padding: 10px 20px;
+    color: rgb(10, 10, 48);
+    border-radius: 100px;
+    
+} 
+.deliveryy {
+    margin-top: 2.5%;
+}   
+
